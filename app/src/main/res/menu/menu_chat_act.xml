@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/call_in_chat_id"
+        android:title="Call"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/add_members_id"
+        android:title="Members"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id = "@+id/change_group_name_id"
+        android:title = "Change Group Name"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/leave_group_id"
+        android:title="Leave Current Group"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>
