@@ -1,0 +1,4 @@
+FROM ubuntu
+ADD . /MessMe
+RUN /MessMe/depend_installer.sh
+ENTRYPOINT ["/bin/bash"]
